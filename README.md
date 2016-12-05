@@ -1,9 +1,9 @@
 # pgadmin4-docker
 This is pgAdmin4 Docker container with the following specification:
 
- - runs the master branch of pgAdmin4 https://git.postgresql.org/gitweb/?p=pgadmin4.git 
- - user data and configuration is persisted in volume
- - pgAdmin4 server is run as unprivileged user
+ - used: Debian Jessie, Python 3.4, master branch of pgAdmin4 https://git.postgresql.org/gitweb/?p=pgadmin4.git 
+ - by default it is setup as multi-user server where users' data and configuration is persisted in a volume
+ - pgAdmin4 server-side app starts under unprivileged user created withing container;
  - pgAdmin4 configuration can modified at any time (container restart required)
 
 ## Volume
