@@ -27,7 +27,7 @@ To build locally run the following
 
 Then you can run it like this example:
 
-    docker run -it --rm -v /home/share/pgadmin-data:/pgadmin-data --net=host --entrypoint=/bin/bash pgadmin4:latest
+    docker run -it --rm -v /home/share/pgadmin-data:/pgadmin-data --net=host pgadmin4:latest
 
 You should be able to see pgAdmin4 in browser once you go to http://localhost:5050 or to the actual host address where the above command was run.
 
